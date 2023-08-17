@@ -1,6 +1,5 @@
 /** @type {import("prettier").Config} */
 module.exports = {
-  // i am just using the standard config, change if you need something else
   useTabs: true,
   singleQuote: true,
   trailingComma: 'none',
