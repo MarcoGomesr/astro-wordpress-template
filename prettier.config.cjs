@@ -6,7 +6,6 @@ module.exports = {
   semi: false,
   printWidth: 100,
   ...require('prettier-config-standard'),
-  pluginSearchDirs: [__dirname],
   plugins: [require.resolve('prettier-plugin-astro')],
   overrides: [
     {
